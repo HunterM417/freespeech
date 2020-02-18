@@ -8,26 +8,43 @@ Freespeech was created in response to the few programs out there for non-verbal 
 
 Many people requested to donate to the project. I'd first recommend you donate to the [Make A Wish](https://secure2.wish.org/site/SPageServer?pagename=donate_now&chid=100-000) charity as they gave my Sister, Della, a wish. If you feel inclined to donate to me and the development of this project, feel free to support me on [ko-fi](https://ko-fi.com/merkie). I am trying to buy myself a new computer as I am currently developing off my parent's laptop. Any money left over after expenses will go to Make A Wish.
 
-## Getting Started
 
-Install the prerequisites along with Python 3.8. Cd into the Freespeech folder and run the app by running app.py.
+## Installation
 
-### Prerequisites
+* [npm LTS](https://nodejs.org/en/)
 
-* [Python 3.8](https://www.python.org/downloads/release/python-381/)
-* [Eel](https://pypi.org/project/Eel/)
-* [Beautiful Soup 4](https://pypi.org/project/beautifulsoup4/)
+#### Dev Setup
+All commands are ran inside of a terminal inside of the freespeechvue folder
+```
+npm install
+```
 
-Can install dependencies with `pip install -r requirements.txt`
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production. Production ready code in /frespeech
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run li
+``` 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. When contributing, email me at archercalder@gmail.com.
+Can find our source code on [Github](https://github.com/Merkie/freespeech).
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us. When contributing, email me at archercalder@gmail.com.
 
 ## Authors
 
 * **Archer Calder** - *Initial work* - [Merkie](https://github.com/Merkie)
 * **Bailey Townsend** - *Help with text to speech functionality* - [Fatfingers23](https://github.com/fatfingers23)
+* **Rees Draminski** - *Help with JavaScript* - [reesdraminski](https://github.com/reesdraminski)
 
 ## License
 
@@ -36,3 +53,4 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 
 * Thanks to TikTok for getting this project recognition.
+
